@@ -650,6 +650,10 @@
             </snapshots>
         </repository>
         <repository>
+            <id>jboss nexus</id>
+            <url>https://repository.jboss.org/nexus/content/groups/public</url>
+        </repository>
+        <repository>
             <id>confluent</id>
             <url>https://packages.confluent.io/maven/</url>
         </repository>
