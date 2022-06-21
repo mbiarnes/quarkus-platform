@@ -312,6 +312,7 @@
                                         <artifact>org.kie.kogito:kogito-quarkus-decisions-integration-test:${kogito-quarkus.version}</artifact>
                                     </test>
                                     <test>
+                                        <packageApplication>true</packageApplication>
                                         <artifact>org.kie.kogito:integration-tests-quarkus-processes-infinispan:${kogito-quarkus.version}</artifact>
                                     </test>
                                     <test>
