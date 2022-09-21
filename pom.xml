@@ -298,7 +298,7 @@
                                                 2022-09-01T13:31:50.5122239Z java.lang.NullPointerException
                                                 2022-09-01T13:31:50.5123228Z 	at org.kie.kogito.quarkus.dmn.KogitoDMNCodeCodestartIT.testContent(KogitoDMNCodeCodestartIT.java:63)
                                             -->
-                                            <excluded>true</excluded>
+                                            <!-- <excluded>true</excluded> -->
                                             <packageApplication>true</packageApplication>
                                             <artifact>org.kie.kogito:kogito-quarkus-decisions-integration-test:${kogito-quarkus.version}</artifact>
                                         </test>
@@ -324,7 +324,7 @@
                                                 2022-09-01T13:35:02.0677858Z 	at org.kie.kogito.pmml.AbstractPMMLRestResource.descriptive(AbstractPMMLRestResource.java:32)
                                                 2022-09-01T13:35:02.0678921Z 	at org.kie.kogito.org_46kie_46pmml_46models_46regression_46model.LinRegResource.descriptive(LinRegResource.java:53)
                                             -->
-                                            <excluded>true</excluded>
+                                            <!-- <excluded>true</excluded> -->
                                             <artifact>org.kie.kogito:kogito-quarkus-predictions-integration-test:${kogito-quarkus.version}</artifact>
                                         </test>
                                         <test>
